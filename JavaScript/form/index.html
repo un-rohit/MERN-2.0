@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <form action="thank.html" onsubmit="">
+    <h2 id="greetings">Hello !</h2>
+    <form action="./thankyou.html" onsubmit="handleFormSubmit(event)">
+      <!-- <input type="text" placeholder="Your nickname" name="username" onkeydown="handleUserName(event)"> -->
       <input
         type="text"
-        name="username"
-        placeholder="Your NickName"
-        onkeydown="handleUserName(event)"
+        placeholder="Your nickname"
+        name="usernameTemp"
+        onkeyup="handleUserName(event)"
       />
-      <input type="email" placeholder="Your Offcial Email" name="email" />
-      <input type="password" placeholder="enter password" name="password" />
-      <button>Submit</button>
+      <input type="email" placeholder="your official email" name="baseEmail" required/>
+      <input type="password" placeholder="strong password" name="abcdPassword" required />
+      <button on>Register</button>
     </form>
-
     <script src="./script.js"></script>
   </body>
 </html>
