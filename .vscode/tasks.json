@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git Autocommit",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\unroh\\.vscode\\extensions\\roman.git-autocommit-1.2.3\\index.ps1"
+      ],
+      "problemMatcher": [],
+      "options": {
+        "cwd": "C:\\Users\\unroh\\OneDrive\\Desktop\\MERN"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
