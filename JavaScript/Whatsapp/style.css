@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.whatsapp-web-root {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
+}
+#left-menu{
+    background-color: grey;
+}
+
+#chat-list {
+    
+}
