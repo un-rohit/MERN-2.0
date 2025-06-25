@@ -1,0 +1,14 @@
+0. isntall npm
+1.>> npm init -y
+2. go to the npmjs.com and install the requied paclahes
+3. >> npm i react 
+4. >> npm i react-dom
+5. this creates node_modules and packages-lock.json for you
+    in packages.json --> dependies array us created
+6. we need bundler? (https://snipcart.com/blog/javascript-module-bundler)
+7. we are going to user parcel (for today) since it is easy to setup
+and will help us build and understand ract appp from scratch 4
+8. npm i parcel
+9. run the app:
+    >> npx parcel index.html
+    
